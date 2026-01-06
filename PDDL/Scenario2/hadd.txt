@@ -1,0 +1,67 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 70
+Aibr Preprocessing
+UFX:false
+|F|:34
+|X|:1
+|A|:68
+|P|:0
+|E|:0
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 51
+h(I):15.0
+ g(n)= 1.0 h(n)=13.0
+ g(n)= 15.0 h(n)=12.0
+ g(n)= 16.0 h(n)=11.0
+ g(n)= 17.0 h(n)=10.0
+ g(n)= 18.0 h(n)=9.0
+ g(n)= 19.0 h(n)=8.0
+ g(n)= 20.0 h(n)=7.0
+ g(n)= 21.0 h(n)=6.0
+ g(n)= 22.0 h(n)=5.0
+ g(n)= 23.0 h(n)=4.0
+ g(n)= 24.0 h(n)=3.0
+ g(n)= 25.0 h(n)=2.0
+ g(n)= 26.0 h(n)=1.0
+Problem Solved
+
+Found Plan:
+0.0: (jump c1_1 c1_2)
+1.0: (move c1_2 c1_3)
+2.0: (move c1_3 c1_2)
+3.0: (move c1_2 c1_3)
+4.0: (move c1_3 c2_3)
+5.0: (move c2_3 c3_3)
+6.0: (move c3_3 c3_4)
+7.0: (move c3_4 c2_4)
+8.0: (move c2_4 c2_5)
+9.0: (move c2_5 c3_5)
+10.0: (move c3_5 c4_5)
+11.0: (move c4_5 c5_5)
+12.0: (move c5_5 c6_5)
+13.0: (move c6_5 c6_6)
+14.0: (pick key_card c6_6)
+15.0: (move c6_6 c6_5)
+16.0: (move c6_5 c5_5)
+17.0: (move c5_5 c4_5)
+18.0: (move c4_5 c3_5)
+19.0: (move c3_5 c2_5)
+20.0: (move c2_5 c2_4)
+21.0: (move c2_4 c3_4)
+22.0: (move c3_4 c3_3)
+23.0: (move c3_3 c2_3)
+24.0: (move c2_3 c1_3)
+25.0: (move c1_3 c1_2)
+26.0: (exit c1_2 key_card)
+
+Plan-Length:27
+Metric (Search):27.0
+Planning Time (msec): 104
+Heuristic Time (msec): 20
+Search Time (msec): 59
+Expanded Nodes:51
+States Evaluated:106
+Number of Dead-Ends detected:0
+Number of Duplicates detected:20

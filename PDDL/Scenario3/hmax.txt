@@ -1,0 +1,66 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 63
+Aibr Preprocessing
+UFX:false
+|F|:14
+|X|:2
+|A|:32
+|P|:0
+|E|:0
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 49
+h(I):3.0
+ g(n)= 38.0 h(n)=2.0
+ g(n)= 36.0 h(n)=1.0
+Problem Solved
+
+Found Plan:
+0.0: (recharge hub)
+1.0: (move hub mod1)
+2.0: (move mod1 hub)
+3.0: (recharge hub)
+4.0: (move hub mod5)
+5.0: (move mod5 mod4)
+6.0: (move mod4 hub)
+7.0: (move hub mod3)
+8.0: (move mod3 hub)
+9.0: (move hub mod3)
+10.0: (activate s3 mod3)
+11.0: (move mod3 hub)
+12.0: (recharge hub)
+13.0: (move hub mod3)
+14.0: (move mod3 hub)
+15.0: (move hub mod1)
+16.0: (activate s1 mod1)
+17.0: (move mod1 hub)
+18.0: (move hub mod3)
+19.0: (move mod3 hub)
+20.0: (recharge hub)
+21.0: (move hub mod3)
+22.0: (move mod3 mod4)
+23.0: (activate s4 mod4)
+24.0: (move mod4 mod5)
+25.0: (move mod5 hub)
+26.0: (move hub mod3)
+27.0: (move mod3 mod2)
+28.0: (activate s2 mod2)
+29.0: (move mod2 hub)
+30.0: (recharge hub)
+31.0: (move hub mod6)
+32.0: (activate s6 mod6)
+33.0: (move mod6 mod5)
+34.0: (activate s5 mod5)
+35.0: (move mod5 hub)
+36.0: (exit hub)
+
+Plan-Length:37
+Metric (Search):37.0
+Planning Time (msec): 406
+Heuristic Time (msec): 260
+Search Time (msec): 390
+Expanded Nodes:9465
+States Evaluated:24187
+Number of Dead-Ends detected:10562
+Number of Duplicates detected:7952
