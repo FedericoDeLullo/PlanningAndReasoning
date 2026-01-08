@@ -1,4 +1,4 @@
-(define (domain aero-scenario1-logic)
+(define (domain aero-scenario1)
   (:requirements :adl :typing)
   (:types key container switch - object)
 

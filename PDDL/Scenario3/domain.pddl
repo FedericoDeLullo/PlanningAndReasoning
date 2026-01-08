@@ -1,4 +1,4 @@
-(define (domain aero-scenario-3-expert)
+(define (domain aero-scenario-3)
   (:requirements :adl :typing :fluents)
 
   (:types location sensor)

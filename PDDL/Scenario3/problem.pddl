@@ -1,5 +1,5 @@
-(define (problem aero-scenario-3-hard-prob)
-  (:domain aero-scenario-3-expert)
+(define (problem aero-scenario-3)
+  (:domain aero-scenario-3)
 
   (:objects 
     hub mod1 mod2 mod3 mod4 mod5 mod6 - location

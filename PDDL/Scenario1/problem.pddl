@@ -1,5 +1,5 @@
-(define (problem aero-scenario1-balanced)
-  (:domain aero-scenario1-logic)
+(define (problem aero-scenario1)
+  (:domain aero-scenario1)
   (:objects
     k-start k-inter k-master - key
     

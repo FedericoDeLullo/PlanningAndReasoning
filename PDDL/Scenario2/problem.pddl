@@ -1,5 +1,5 @@
-(define (problem escape-prob-2-fixed)
-  (:domain escape-scenario-2-fixed)
+(define (problem aero-prob-2)
+  (:domain aero-scenario-2)
 
   (:objects
     c1_1 c1_2 c1_3 c1_4 c1_5 c1_6

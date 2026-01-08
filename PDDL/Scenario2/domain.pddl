@@ -1,4 +1,4 @@
-(define (domain escape-scenario-2-fixed)
+(define (domain aero-scenario-2)
   (:requirements :adl :typing :fluents)
 
   (:types cell item)
